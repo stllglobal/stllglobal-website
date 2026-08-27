@@ -200,10 +200,10 @@ html, body{
 }
 .network-grid{
     display:grid !important;
-    grid-template-columns:minmax(0,28%) minmax(0,72%) !important;
+    grid-template-columns:minmax(0,30%) minmax(0,70%) !important;
     gap:30px !important;
     width:100% !important;
-    max-width:1400px !important;
+    max-width:1200px !important;
     margin:0 auto !important;
     padding:0 40px 60px !important;
     box-sizing:border-box !important;
