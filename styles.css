@@ -66,3 +66,27 @@
   margin-left:0 !important;
   transform:none !important;
 }
+.map{
+  height:auto !important;
+  min-height:0 !important;
+  padding:0 !important;
+  background:none !important;
+  overflow:visible !important;
+}
+
+.map::before{
+  content:none !important;
+  display:none !important;
+  background:none !important;
+}
+
+.map img{
+  width:100% !important;
+  height:auto !important;
+  min-height:0 !important;
+  object-fit:contain !important;
+  display:block !important;
+  margin:0 !important;
+  border:none !important;
+  box-shadow:none !important;
+  }
