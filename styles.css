@@ -27,3 +27,41 @@
 .about-copy h2{
   margin:0 0 20px;
 }
+.about{
+  display:grid !important;
+  grid-template-columns:41% 59% !important;
+  align-items:stretch !important;
+}
+
+.about-image{
+  grid-column:1 !important;
+  grid-row:1 !important;
+  overflow:hidden !important;
+  min-height:430px !important;
+}
+
+.about-image img{
+  width:100% !important;
+  height:100% !important;
+  min-height:430px !important;
+  object-fit:cover !important;
+  display:block !important;
+}
+
+.about-copy{
+  grid-column:2 !important;
+  grid-row:1 !important;
+  padding:48px 7% !important;
+  min-width:0 !important;
+  width:auto !important;
+}
+
+.about-copy .eyebrow,
+.about-copy h2,
+.about-copy p,
+.about-copy .values{
+  width:100% !important;
+  max-width:none !important;
+  margin-left:0 !important;
+  transform:none !important;
+}
