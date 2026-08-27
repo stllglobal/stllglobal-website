@@ -106,3 +106,23 @@
     position:static !important;
     transform:none !important;
 }
+.network-grid .map{
+    width:100% !important;
+    aspect-ratio:3 / 2 !important;
+    height:auto !important;
+    min-height:0 !important;
+    background-image:url("assets/network-map.png") !important;
+    background-repeat:no-repeat !important;
+    background-position:center center !important;
+    background-size:contain !important;
+    overflow:hidden !important;
+}
+
+.network-grid .map::before{
+    display:none !important;
+    content:none !important;
+}
+
+.network-grid .map img{
+    display:none !important;
+}
