@@ -90,3 +90,19 @@
   border:none !important;
   box-shadow:none !important;
   }
+.network-grid .map{
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+}
+
+.network-grid .map img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    max-height:none !important;
+    object-fit:contain !important;
+    object-position:center center !important;
+    position:static !important;
+    transform:none !important;
+}
