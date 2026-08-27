@@ -51,6 +51,7 @@
 .about-copy{
   grid-column:2 !important;
   grid-row:1 !important;
+  display:block !important;
   padding:48px 7% !important;
   min-width:0 !important;
   width:auto !important;
