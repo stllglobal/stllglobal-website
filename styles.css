@@ -234,3 +234,37 @@ html, body{
 html, body{
     overflow-x:hidden !important;
 }
+.network-clean{
+    display:grid !important;
+    grid-template-columns:30% 70% !important;
+    gap:30px !important;
+    width:90% !important;
+    max-width:1400px !important;
+    margin:40px auto 0 !important;
+    box-sizing:border-box !important;
+}
+
+.network-text{
+    min-width:0 !important;
+}
+
+.network-picture{
+    width:100% !important;
+    min-width:0 !important;
+    overflow:hidden !important;
+}
+
+.network-picture img{
+    display:block !important;
+    width:100% !important;
+    max-width:100% !important;
+    height:auto !important;
+    object-fit:contain !important;
+}
+
+@media(max-width:850px){
+    .network-clean{
+        grid-template-columns:1fr !important;
+        width:90% !important;
+    }
+}
