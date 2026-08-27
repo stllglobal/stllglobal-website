@@ -126,3 +126,15 @@
 .network-grid .map img{
     display:none !important;
 }
+.network-map-image{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+.network-map-image img{
+    width:100%;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
