@@ -167,3 +167,34 @@
     padding-top:70px !important;
     overflow:hidden !important;
 }
+.network-grid{
+    display:grid !important;
+    grid-template-columns:28% 72% !important;
+    gap:30px !important;
+    width:100% !important;
+    max-width:100% !important;
+    overflow:hidden !important;
+}
+
+.network-grid .map{
+    width:100% !important;
+    height:500px !important;
+    min-height:0 !important;
+
+    background-image:url("assets/network-map.png") !important;
+    background-repeat:no-repeat !important;
+    background-position:center center !important;
+    background-size:90% auto !important;
+
+    overflow:hidden !important;
+    border:none !important;
+}
+
+.network-grid .map img{
+    display:none !important;
+}
+
+html, body{
+    max-width:100% !important;
+    overflow-x:hidden !important;
+}
