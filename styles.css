@@ -198,3 +198,39 @@ html, body{
     max-width:100% !important;
     overflow-x:hidden !important;
 }
+.network-grid{
+    display:grid !important;
+    grid-template-columns:minmax(0,28%) minmax(0,72%) !important;
+    gap:30px !important;
+    width:100% !important;
+    max-width:1400px !important;
+    margin:0 auto !important;
+    padding:0 40px 60px !important;
+    box-sizing:border-box !important;
+    overflow:hidden !important;
+}
+
+.network-grid > div{
+    min-width:0 !important;
+}
+
+.network-map-image{
+    width:100% !important;
+    max-width:100% !important;
+    min-width:0 !important;
+    overflow:hidden !important;
+}
+
+.network-map-image img{
+    display:block !important;
+    width:100% !important;
+    max-width:100% !important;
+    height:auto !important;
+    object-fit:contain !important;
+    object-position:center !important;
+    margin:0 auto !important;
+}
+
+html, body{
+    overflow-x:hidden !important;
+}
